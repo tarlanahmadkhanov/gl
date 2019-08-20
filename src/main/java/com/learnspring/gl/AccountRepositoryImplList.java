@@ -1,9 +1,12 @@
 package com.learnspring.gl;
 
+import org.springframework.stereotype.Component;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
+@Component
 public class AccountRepositoryImplList implements AccountRepository {
 
     private Map<String, Account> accounts = new HashMap<String, Account>();
